@@ -57,6 +57,7 @@ body{
   padding: 5px 1em;
   background-color: var(--base-clr);
   border-right: 1px solid var(--line-clr);
+  background-color: #1D3639;
   position: sticky;
   top: 0;
   align-self: start;
@@ -125,6 +126,7 @@ body{
   padding: .85em;
   text-decoration: none;
   color: var(--text-clr);
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 1.4em;
@@ -141,6 +143,7 @@ body{
 #sidebar svg{
   flex-shrink: 0;
   fill: var(--text-clr);
+  fill: #fff;
 }
 #sidebar .dropdown-btn span{
   flex-grow: 1;
